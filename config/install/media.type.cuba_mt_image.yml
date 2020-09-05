@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cuba_mt_image
+label: Image
+description: 'Images for CUBA/ACCAU'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

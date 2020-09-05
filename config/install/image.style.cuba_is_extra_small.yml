@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: cuba_is_extra_small
+label: 'Extra small'
+effects:
+  9da4cb44-5daa-4ca0-92ee-7f789b09e070:
+    uuid: 9da4cb44-5daa-4ca0-92ee-7f789b09e070
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: 250
+      upscale: true

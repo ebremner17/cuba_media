@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: cuba_is_large
+label: Large
+effects:
+  c159f7e1-23c7-47a5-abc3-649903412da3:
+    uuid: c159f7e1-23c7-47a5-abc3-649903412da3
+    id: image_scale
+    weight: 1
+    data:
+      width: 1024
+      height: 400
+      upscale: true

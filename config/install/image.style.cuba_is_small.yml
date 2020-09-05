@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: cuba_is_small
+label: Small
+effects:
+  14e61baa-8efb-4eec-a2bd-c51e97c1c54b:
+    uuid: 14e61baa-8efb-4eec-a2bd-c51e97c1c54b
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: 300
+      upscale: true

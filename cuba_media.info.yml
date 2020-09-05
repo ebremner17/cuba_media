@@ -1,0 +1,11 @@
+name: 'Cuba media'
+description: 'Media for CUBA/ACCAU media'
+type: module
+core_version_requirement: ^9
+dependencies:
+  - field
+  - image
+  - language
+  - media
+  - path
+  - responsive_image

@@ -1,0 +1,7 @@
+{
+  "name": "ebremner17/cuba_media",
+  "description": "Media for CUBA/ACCAU sites.",
+  "type": "drupal-custom-module",
+  "homepage": "https://github.com/ebremner17/cuba_media",
+  "keywords": ["Drupal"]
+}

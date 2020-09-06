@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.cuba_mt_image
+id: media.cuba_mt_image.status
+field_name: status
+entity_type: media
+bundle: cuba_mt_image
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

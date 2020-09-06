@@ -2,17 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.media.field_media_oembed_video
     - media.type.cuba_mt_remote_video
-id: media.cuba_mt_remote_video.field_media_oembed_video
-field_name: field_media_oembed_video
+id: media.cuba_mt_remote_video.name
+field_name: name
 entity_type: media
 bundle: cuba_mt_remote_video
-label: 'Remote video URL'
+label: Name
 description: ''
 required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: ''
 default_value_callback: ''
 settings: {  }
 field_type: string

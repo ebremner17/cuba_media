@@ -4,11 +4,11 @@ dependencies: {  }
 name: cuba_is_medium
 label: Medium
 effects:
-  ab9ec700-ea60-4840-9136-d747c90c73f8:
-    uuid: ab9ec700-ea60-4840-9136-d747c90c73f8
-    id: image_scale
+  6ebaa65c-0ecb-4b2c-a240-83f5e8580756:
+    uuid: 6ebaa65c-0ecb-4b2c-a240-83f5e8580756
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 768
       height: 350
-      upscale: true
+      anchor: center-center

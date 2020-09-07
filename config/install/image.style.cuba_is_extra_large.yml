@@ -4,11 +4,11 @@ dependencies: {  }
 name: cuba_is_extra_large
 label: 'Extra large'
 effects:
-  f07b6408-f44a-4660-ab1e-a79a5b629c81:
-    uuid: f07b6408-f44a-4660-ab1e-a79a5b629c81
-    id: image_scale
+  f3585ac3-52a3-47ce-9e00-73cf9b8ed487:
+    uuid: f3585ac3-52a3-47ce-9e00-73cf9b8ed487
+    id: image_scale_and_crop
     weight: 1
     data:
-      width: 1280
+      width: 1290
       height: 450
-      upscale: true
+      anchor: center-center

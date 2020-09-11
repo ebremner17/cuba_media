@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cuba_mt_file
+label: File
+description: 'File media for CUBA/ACCAU'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.cuba_mt_file
+id: media.cuba_mt_file
+target_entity_type_id: media
+target_bundle: cuba_mt_file
+default_langcode: site_default
+language_alterable: false

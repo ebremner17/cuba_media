@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: cuba_is_bod
+label: 'Board of directors'
+effects:
+  8c193053-c2b1-4884-aebf-bee3635febd0:
+    uuid: 8c193053-c2b1-4884-aebf-bee3635febd0
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 300
+      upscale: false

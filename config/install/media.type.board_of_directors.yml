@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: board_of_directors
+label: 'Board of directors'
+description: 'Pictures for Board of Directors.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

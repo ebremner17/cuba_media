@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.board_of_directors.field_media_image_1
+    - image.style.medium
+    - media.type.board_of_directors
+  module:
+    - image
+id: media.board_of_directors.media_library
+targetEntityType: media
+bundle: board_of_directors
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_media_image_1: true
+  langcode: true
+  name: true
+  uid: true

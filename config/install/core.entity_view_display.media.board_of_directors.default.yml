@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.board_of_directors.field_media_image_1
+    - image.style.cuba_is_bod
+    - media.type.board_of_directors
+  module:
+    - image
+id: media.board_of_directors.default
+targetEntityType: media
+bundle: board_of_directors
+mode: default
+content:
+  field_media_image_1:
+    label: hidden
+    weight: 0
+    settings:
+      image_style: cuba_is_bod
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
